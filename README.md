@@ -125,3 +125,58 @@ int main()
 \*berikut adalah flowchartnya :
 ![img]https://raw.githubusercontent.com/RAIS14/praktikum3/master/flowchart.lat2.jpg
 
+**latihan-3 : mencari nilai tengah dari 3 bilangan**
+````
+1.mendeklarasikan variable a, b dan c
+2.memasukan nilai kedalam variable input (a, b dan c) dengan nilai tertentu
+3.mencari nilai tengah dari sejumlah variable yang di inputkan menggunakan "if dan else"
+4.mencetak nilai tengah dari sejumlah variable yang telah dimasukan ke dalam variable input tersebut ke layar.
+````
+berikut code lengkapnya :
+````
+#include <iostream>
+
+using namespace std;
+int main()
+{
+	int a,b,c;
+
+	cout << " masukan nilai pertama : ";
+	cin >> a ;
+	cout << " masukan nilai kedua : ";
+	cin >> b ;
+	cout << " masukan nilai ketiga : ";
+	cin >> c ;
+
+
+	if (a<b){
+		if (b<c)
+		cout << "nilai tengahnya adalah : "<< b ;
+		else{
+			if (a<c)
+				cout << "nilai tengahnya adalah : "<<  c ;
+			else
+				cout << "nilai tengahnya adalah : "<< a ;
+		}
+	}
+
+	else
+	{
+		if (a<c)
+			cout << "nilai tengahnya adalah : "<< a ;
+		else
+		{
+			if(b<c)
+			cout << "nilai tengahnya adalah : "<< c ;
+			else
+			cout << "nilai tengahnya adalah : "<< b ;
+		}
+	}
+
+
+	return 0;
+}
+
+````
+berikut hasilnya :
+![img]https://raw.githubusercontent.com/RAIS14/praktikum3/master/hasil_latihan3.png
