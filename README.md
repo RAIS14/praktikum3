@@ -179,4 +179,9 @@ int main()
 
 ````
 berikut hasilnya :
+
 ![img]https://raw.githubusercontent.com/RAIS14/praktikum3/master/hasil_latihan3.png
+
+berikut flowchartnya :
+
+![img]https://raw.githubusercontent.com/RAIS14/praktikum3/master/flowchart_lat3.jpg
